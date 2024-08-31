@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chatbot-container">
+        <div class="info-tab" id="info-tab">
+            <p>💬 Chat with us</p>
+        </div>
+        <div class="chatbox" id="chatbox">
+            <div class="chat-header">
+                <h3>Helper Bot</h3>
+            </div>
+            <div class="chat-body" id="chat-body">
+                <div class="bot-message">
+                    <p>Hello! How may I assist you today?</p>
+                    <p>Select a number for help with Excel:</p>
+                    <ol>
+                        <li>How to add a formula?</li>
+                        <li>How to apply conditional formatting?</li>
+                        <li>How to create a chart?</li>
+                        <li>How to filter data?</li>
+                        <li>How to sort data?</li>
+                        <li>How to use pivot tables?</li>
+                        <li>How to freeze panes?</li>
+                        <li>How to merge cells?</li>
+                        <li>How to protect a sheet?</li>
+                        <li>How to split text into columns?</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="chat-footer">
+                <input type="text" id="user-input" placeholder="Type your message here...">
+                <button id="send-btn">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
